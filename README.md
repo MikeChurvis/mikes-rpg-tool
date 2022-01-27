@@ -1,8 +1,8 @@
 # RPG Tracker Tool
 
 A tool for tracking different aspects of the pen-and-paper roleplaying games I play, namely:
-- Character sheets
-- Command history
+- Exalted
+- Monsterpunk
 
 ### Why do I need to build this?
 
