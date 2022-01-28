@@ -1,14 +1,22 @@
 ---
-// JS/TS Code written in between the (---) code fence,
-// is ran solely on the Server!
-console.log('See me in the Terminal')
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import TestComponent from '@/components/TestComponent.svelte';
 ---
 
-<html>
-  <body>
-    <h1>Hello, World!</h1>
-  </body>
-</html>
+<BaseLayout title="Test Page">
+
+
+  <p>
+    Hello from Astro
+  </p>
+
+  <TestComponent client:visible />
+
+  <script slot="page-script">
+    alert('Hello from Page Script Slot!');
+  </script>
+
+</BaseLayout>
 
 <style lang='scss'>
   body{
@@ -18,7 +26,3 @@ console.log('See me in the Terminal')
   }
 </style>
 
-<script>
-  // JS Code entered here is ran entirely on the Browser
-  console.log('See me in the devTools')
-</script>
