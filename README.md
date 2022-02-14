@@ -1,33 +1,61 @@
-# RPG Tracker Tool
+# Mike's RPG Tool
 
-A tool for tracking the many components of tabletop roleplaying games (TTRPGs).
+A web app I've designed to relieve my friends and I of the various burdens of playing and running tabletop roleplaying games.
 
-Initially this project will be tailored to the TTRPGs I'm playing now. In ascending order of complexity, these are...
-- Monster of the Week
-- Monsterpunk
-- Exalted
+## Most Requested Features
 
-### Why Am I Building This?
+Monster of the Week
+1. Character sheets (everyone)
 
-1. I need a single source of truth for the characters I play.
-1. I need an app that can track, change, and present dozens of arbitrary data.
-1. I want to learn new stuff.
+Monsterpunk
+1. Character sheets (me)
 
-Roll20 and Google Drive apps aren't good enough.
-- Google Docs is a bad fit for tabular data, and its layout is too linear to give a comprehensive overview.
-- Google Sheets is ugly, unspecialized, and tends to break when anything is moved around. It's also a bad fit for non-tabular data.
-- Roll20 attribute data is a pain to set up and the values are poorly presented. It also loads slowly and doesn't support the same games we play.
+Exalted
+1. Charm/Martial Arts/Sorcery tree visualizer (everyone) 
+1. Character sheets (mostly me)
+1. Charm/Martial Arts/Sorcery runner (me)
 
-This project is also my excuse to dive into:
-- Svelte
-- Nanostores
-- Tailwind
+## Roadmap
 
-## Proposed Architecture
+### v.0.0
 
-Stack
-- Tailwind
-- Svelte
-- Nanostores
-- Astro
+- [ ] Initialize project 
+- [ ] Persist arbitrary text data in localstorage
+- [ ] Save/load data from file
+- [ ] Drag-and-drop file upload
+- [ ] Generic: arbitrary text input fields
+- [ ] Generic: arbitrary field blocks
+- [ ] Drag-and-drop reorder fields and blocks
+- [ ] Generic: arbitrary textarea fields
+- [ ] Generic: arbitrary number fields
+- [ ] Deploy to Github Pages
+- [ ] Automate Github Pages deployment
 
+### v.0.1
+
+- [ ] MotW: character sheet v1 (generic)
+- [ ] Monsterpunk: character sheet v1 (generic)
+- [ ] Exalted: character sheet v1 (generic, no charms)
+
+### v.0.2
+
+- [ ] MotW: specialized sheet for each archetype
+- [ ] MotW: character sheet v2 (archetype specializations)
+
+### v.0.3
+
+- [ ] Monsterpunk: specialized sheet for each character class
+- [ ] Monsterpunk: character sheet v2 (class specializations)
+
+### v.0.4
+
+- [ ] Exalted: specialized sheet for each exalted type
+- [ ] Exalted: specialized sheet for each solar caste
+- [ ] Exalted: character sheet v2 (type/caste specializations)
+
+### v.0.5
+
+- [ ] Exalted: charms tree
+- [ ] Exalted: martial arts tree
+- [ ] Exalted: sorcery tree
+- [ ] Exalted: character sheet v3 (charms/martial arts/sorcery block)
