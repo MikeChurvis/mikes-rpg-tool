@@ -1,0 +1,26 @@
+<slot />
+
+<style global lang="scss">
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+	h1 {
+		@apply text-6xl;
+	}
+	h2 {
+		@apply text-5xl;
+	}
+	h3 {
+		@apply text-4xl;
+	}
+	h4 {
+		@apply text-3xl;
+	}
+	h5 {
+		@apply text-2xl;
+	}
+	h6 {
+		@apply text-xl;
+	}
+</style>
